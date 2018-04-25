@@ -1,5 +1,12 @@
-*{
+body, html{
+    height: 100%;
     margin:0;
+    font-size: 16;
+    font-family:'Lato', sans-serif;
+    font-weight:300;
+    line-height:1.7;
+    overflow-x:hidden;
+    text-align: center;
 }
  
 
@@ -10,65 +17,83 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
+    position: relative;
+    opacity: 0.70;
+    overflow: hidden;
 }
 
-.subSection    {
-
-  height: 50%;
-}
 
 .sectOne    {
-    background-image: url(img1.jpg);
+    background-image: url(img1.jpeg);
+    min-height: 100%;
 }
 
 
 .sectTwo   {
+    
     background-image: url(img2.jpg);
+    min-height: 400px;
 }
 
 
 .sectThree    {
+    
     background-image: url(img3.jpg);
+    min-height: 400px;
 }
-/*
-.card {display:inline-block;} 
 
-.index-content a:hover{
-    color:black;
-    text-decoration:none;
+
+.sectFour    {
+    
+    background-image: url(img4.jpg);
+    min-height: 400px;
 }
-.index-content{
-    margin-bottom:20px;
-    padding:50px 0px;
+
+.ptext  {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.ptext .border  {
+   
+    color: #fff;
+    padding: 20px;
+
+}
+
+.ptext2 {
+    position: relative;
+    top: 20%;
+    width: 50%;
+    text-align:center;
+    font-size:15px;
+    background-color:white;
+    margin-left: 10px;
+    
+
+
     
 }
-.index-content .row{
-    margin-top:20px;
-}
-.index-content a{
-    color: black;
-}
-.index-content .card{
-    background-color: #FFFFFF;
-    padding:0;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius:4px;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
 
-}
-.index-content .card:hover{
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
-    color:black;
-}
-.index-content .card img{
-    width:100%;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
+.wrapper {
+    display: inline-flex;
+    padding: 31%;
+    align-items: center;
+    margin-left: 10px;
+   
+  }
+
 
 
 .portfolio-item {
-    margin-bottom: 30px;
-  }*/
+    display:inline-block;
+    padding:24px;
+    width:100%;
+    height:auto;
+    
+    
+ 
+  }
   
