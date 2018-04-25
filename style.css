@@ -55,11 +55,16 @@ body, html{
     width: 100%;
     text-align: center;
     font-size: 25px;
+   font-style: initial;
+    font-weight: bolder;
+    
+ 
 }
 .ptext .border  {
-   
-    color: #fff;
     padding: 20px;
+    background-color: white;
+    opacity: 0.80;
+
 
 }
 
@@ -71,7 +76,7 @@ body, html{
     font-size:15px;
     background-color:white;
     margin-left: 10px;
-    
+    opacity: 0.70;
 
 
     
