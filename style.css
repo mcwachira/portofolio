@@ -64,17 +64,15 @@ body, html{
 }
 
 .ptext2 {
-    position: relative;
+     position: relative;
     top: 20%;
     width: 50%;
     text-align:center;
     font-size:15px;
     background-color:white;
     margin-left: 10px;
-    
+    opacity: 0.70;
 
-
-    
 }
 
 .wrapper {
